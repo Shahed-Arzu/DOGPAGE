@@ -1,0 +1,66 @@
+
+/* import google font... poppins*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;  
+}
+
+
+
+.header-section nav {
+    background-color: #daac00;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.header-section nav a .header-logo {
+    max-width: 150px;
+}
+.header-section nav li a.nav-link{
+    color: white;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.header-section nav form {
+    box-shadow: 5px 8px 12px rgba(0,0,0,0.1);
+}
+
+
+.header-section nav form input {
+    border-radius: 0;
+    padding: 5px;
+    background-color: #fcc302;
+    border: none;
+}
+
+
+
+
+.header-section nav form input::placeholder{
+    color: white;
+    font-size: .9em;
+}
+
+.header-section nav form button {
+    border-radius: 0;
+    background-color: #00bec9;
+    padding: 5px 20px; 
+    border: none;
+    color: white;
+}
+
+
+.header-section nav form input:focus,
+.header-section nav form button:focus {
+    box-shadow: none;
+}
+.header-section .hero-area {
+    background-color: #fcc302;
+    padding: 110px 0;
+}
+.header-section .hero-area .hero-area-contents .main-title {
+    color: white;
+    font-weight: 600;
+    font-size: 4.5em;
+}
