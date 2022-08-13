@@ -19,23 +19,33 @@
     <!-- Header section start-->
 <header id="header-area" class="header-section">
     <!--Navigation Bar start-->
-    <nav class="navbar navbar-expand-md">
+    <nav class="navbar navbar-expand-md navbar-dark">
         <div class="container">
             <a href="index.html" class="navbar-brand">
                 <img src="./assets/img/dogpage.png" alt="Dogpage" class="header-logo img-fluid">
             </a>
-            <ul class="navbar-nav text-capitalize">
-                <li class="nav-item"><a class="nav-link" href="">home</a></li>
-                <li class="nav-item"><a class="nav-link" href="">about</a></li>
-                <li class="nav-item"><a class="nav-link" href="">service</a></li>
-                <li class="nav-item"><a class="nav-link" href="">contact</a></li>
-            </ul>
-            <form action="#">
-                <div class="input-group">
-                    <input type="search" class="form-control" placeholder="Search...">
-                    <button class="btn"><i class="bi bi-search"></i></button>
-                </div>
-            </form>
+
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#content">
+                <i class="bi bi-three-dots"></i>
+            </button>
+            <div class="navbar-collapse collapse" id="content">
+                <ul class="navbar-nav text-capitalize text-center mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="">home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">about</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">service</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">contact</a></li>
+                </ul>
+
+                <form class="ms-auto" action="#">
+                    <div class="input-group">
+                        <input type="search" class="form-control" placeholder="Search...">
+                        <button class="btn"><i class="bi bi-search"></i></button>
+                    </div>
+                </form>
+
+            </div>
+           
+          
         </div>
     </nav>
     <!--Navigation Bar end-->
@@ -43,23 +53,25 @@
     <!--Hero area start-->
     <div class="hero-area">
         <div class="container">
-           <div class="row d-flex align-items-center">
-            <div class="col-md-7">
-                <div class="hero-area-contents">
-                    <h1 class="main-title mb-4">
-                        First I wanted to be a veterinarian
-                    </h1>
-                    <p class="lead text-white mb-5">Lorem Ipsum available but the majority have suffered alteration in some form, by injected humour randomised words.</p>
-                    <div class="button-group text-capitalize">
-                        <a class="btn btn-lg btn-info text-white me-4" href="#">contact us</a>
-                        <a class="btn btn-lg btn-outline-light" href="#"> our service</a>
-                    </div>
+           <div class="d-flex justify-content-between align-items-center">
+            
+            <div class="hero-area-contents ">
+                <h1 class="main-title mb-4">
+                    First I wanted to be a veterinarian
+                </h1>
+                <p class="lead text-white mb-5">Lorem Ipsum available but the majority have suffered alteration in some form, by injected humour randomised words.</p>
+                <div class="button-group text-capitalize">
+                    <a class="btn btn-lg btn-info text-white me-4" href="#">contact us</a>
+                    <a class="btn btn-lg btn-outline-light" href="#"> our service</a>
                 </div>
-    
             </div>
-            <div class="col-md-5">
+            <div class="main-dog d-none d-lg-block">
                 <img src="./assets/img/main-dog.png" alt="main-dog" class="dog img-fluid">
             </div>
+           </div>
+            
+            </div>
+           
            </div>
         </div>
     </div>
@@ -69,10 +81,37 @@
 
 
 </header>
+     <!-- Header section end-->
+
+        <!--Service area start-->
+        <section class="service-area">
+            <div class="container">
+                <div class="row d-flex justify-content-between align-items-center bg-light-fluid mt-5 p-5">
+                    <div class="col-lg-6">
+                        <div class="service-content">
+                            <h2 class="mb-4">As a veterinarian and <br> lover of animals.</h2> 
+                            <p class="lead mb-5">Lorem Ipsum available but the majority have suffered alteration in some form, by injected humour randomised words.</p>
+                            <div class="text-capitalize">
+                                <a class="btn btn-lg btn-warning text-white" href="#">contact us</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="dog2">
+                        <img src="./assets/img/dog2.jpg" alt="dog2" class="dog2 img-fluid">
+                     </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!--Service area end-->
 
 
 
-    <!-- Header section end-->
+
     <!--Connect bootstrap JS file-->
     <script src="./assets/lib/bootstrap-5.2.0-dist/js/bootstrap.min.js"></script>
 </body>
