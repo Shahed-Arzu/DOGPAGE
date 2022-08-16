@@ -64,3 +64,95 @@ body {
     font-weight: 600;
     font-size: 4.5em;
 }
+
+.header-section .hero-area .hero-area-contents p {
+    color: white;
+}
+.header-section .hero-area .hero-area-contents .button-group a{
+    font-size: 0.9em;
+}
+
+@media (max-width: 767px) {
+    .header-section .hero-area .hero-area-contents .main-title {
+    font-size: 3.5em;
+    } 
+    .header-section .hero-area .hero-area-contents p {
+        font-size: 0.9em;
+    }
+    .header-section .hero-area .hero-area-contents .button-group a{
+        font-size: 0.8em;
+    } 
+}
+
+/* service section css code start*/
+.section-padding {
+    padding: 80px 0;
+}
+.service-area .service-contents .section-title {
+    font-weight: 600;
+    font-size: 2em;
+}
+.service-area .service-contents .section-desc {
+    font-size: 1,1em;
+}
+
+.service-area .service-contents .btn {
+    background-color: #fcc302;
+    color: white;
+    font-size: 0.9em;
+}
+
+
+
+.service-img-box {
+    position: relative;
+}
+.service-img-box::before {
+    position: absolute;
+    content: '' ;
+    width: 200px;
+    height: 200px;
+    background-color: #fcc302;
+    bottom: -25px;
+    right: 225px;
+    z-index: -5;
+}
+
+
+.service-area .service-img-box .service-img {
+    position: relative;
+    background: linear-gradient(to left, rgba(254,196,0,0.3),rgba(254,196,0,0.6)),url(./assets/img/dog2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 400px;
+    margin-left: auto;
+    z-index: 200;
+}
+
+
+
+
+.service-area .service-img i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+    color: #fcc302;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    padding-left: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+
+
+}
+
+
+
+/* service section css code end*/
+
