@@ -152,7 +152,211 @@ body {
 
 }
 
-
-
 /* service section css code end*/
 
+
+
+/* Our services area start*/
+
+.our-services {
+    background-color: #fcc302;
+}
+.our-services .title-area h2 {
+    color: white;
+    font-size: 4em;
+    font-weight: 600;
+}
+.our-services .title-area p {
+    color: white;
+}
+
+
+.our-services .service-items-area .service-item {
+    text-align: center;
+}
+
+
+
+.our-services .service-items-area .service-item img {
+ background-color: white;
+ padding: 5px;
+ margin-bottom: 30px;
+}
+
+.our-services .service-items-area .service-item h3 {
+    color: white;
+}
+
+.our-services .service-items-area .service-item p {
+    color: white;
+    width: 90%;
+    margin: auto;
+    font-size:1.em;
+}
+
+/* Our services area end*/
+
+/*left service section css code start*/
+.section-padding {
+    padding: 80px 0;
+}
+.left-service-area .service-contents .section-title {
+    font-weight: 600;
+    font-size: 2em;
+}
+.left-service-area .service-contents .section-desc {
+    font-size: 1,1em;
+}
+
+.left-service-area .service-contents .btn {
+    background-color: #fcc302;
+    color: white;
+    font-size: 0.9em;
+}
+
+
+
+.left-service-area .service-img-box {
+    position: relative;
+}
+.left-service-area .service-img-box::before {
+    position: absolute;
+    content: '' ;
+    width: 200px;
+    height: 200px;
+    background-color: #fcc302;
+    bottom: -25px;
+    left: 225px;
+    z-index: -5;
+}
+
+
+.left-service-area .service-img-box .service-img {
+    position: relative;
+    background: linear-gradient(to left, rgba(254,196,0,0.3),rgba(254,196,0,0.6)),url(./assets/img/dog3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 400px;
+    z-index: 200;
+}
+
+
+
+
+.left-service-area .service-img i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+    color: #fcc302;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    padding-left: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+
+
+}
+
+/* left service section css code end*/
+
+
+/* Our products area start*/
+
+.our-products {
+    background-color: #fcc302;
+}
+.our-products .title-area h2 {
+    color: white;
+    font-size: 4em;
+    font-weight: 600;
+}
+.our-products .title-area p {
+    color: white;
+}
+
+
+.our-products .product-items-area .product-item {
+    text-align: center;
+}
+
+
+
+.our-products .product-items-area .product-item  img {
+ background-color: white;
+ padding: 5px;
+ margin-bottom: 30px;
+}
+
+.our-products .product-items-area .product-item  h3 {
+    color: white;
+
+}
+.our-products .product-items-area .product-item a {
+    color: white;
+
+    width: 50%;
+    margin: auto;
+    font-size:1.5em;
+    font-weight: 600;
+    border-radius: 50px;
+}
+
+/* Our products area end*/
+
+
+
+/* Our team area start*/
+
+.our-team {
+    background-color: #f7f7f7
+}
+.our-team .title-area h2 {
+    font-size: 4em;
+    font-weight: 600;
+}
+
+
+
+.our-team .team-area .team-item img {
+ margin-bottom: 30px;
+}
+
+.our-team .team-area .team-item h3 {
+   font-size: 2em;
+   font-weight: 600; 
+}
+
+.our-team .team-area .team-item p {
+    font-size:1.em;
+}
+
+.our-team .team-area .team-item ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+    
+    
+
+}
+
+.our-team .team-area .team-item ul li a i {
+    background-color: #fcc302;
+    color: white;
+    font-size: 16px;
+    height: 32px;
+    width: 32px;
+    padding: 8px;
+    border-radius: 50%;
+    
+}
+
+/* Our team area end*/
