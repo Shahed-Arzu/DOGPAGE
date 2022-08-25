@@ -397,8 +397,55 @@ body {
 
 /*Counter area end*/
 
-.past-area .post-top .section-title {
-    font-size: 4em;
+.post-area .post-top .section-title {
+    font-size: 4.5em;
     font-weight: 600;
 }
 
+
+#footer-area {
+    background-color: #343434;
+}
+
+#footer-area .footer-contents {
+    padding: 80px;
+}
+
+#footer-area .footer-contents .row .col-lg-4  form input {
+    border-radius: 0;
+    padding: 10px;
+    background-color: #fcc302;
+    border: none;
+}
+
+#footer-area .footer-contents .row .col-lg-4 form button {
+    border-radius: 0;
+    background-color: #00bec9;
+    padding: 10px 20px; 
+    border: none;
+    color: white;
+    font-size: 30px;
+}
+
+#footer-area .footer-contents .row .col-lg-4 ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#footer-area .footer-contents .row .col-lg-4  ul li a i {
+    display:inline-block;
+     background-color: #ffffff;
+    color: #343434;
+    font-size:20px;
+    height: 40px;
+    width: 37px;
+    padding: 6px;
+    border-radius: 50%;
+    
+}
